@@ -76,7 +76,7 @@ body {
 
 /* Splash Screen */
 #splash {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -95,7 +95,8 @@ body {
 }
 
 .splash-content h1 {
-    font-size: 2rem;
+    font-size: 12px;
+  position: relative;
     margin: 1rem 0;
 }
 
