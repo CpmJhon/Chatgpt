@@ -1,0 +1,36 @@
+<html>
+
+<head>
+	<title>Splash</title>
+	<style>
+		body{
+			padding:0;
+			margin: 0;
+		}
+		.splash:before {
+			content: "";
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background-image: url(splash.jpg);
+			background-position: center;
+			background-size: contain;
+			mix-blend-mode: screen;
+			mix-blend-mode: multiply;
+			filter: invert(1);
+		}
+
+		.splash {
+			position: relative;
+			height: 100vh;
+			background: url(bg.jpg);
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="splash"></div>
+</body>
+  <script src="index2.html"></script>
+</html>
