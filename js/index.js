@@ -5983,7 +5983,7 @@
       document.addEventListener('DOMContentLoaded', function () {
           var overlay = document.getElementById('overlay');
           var text = document.getElementById('text');
-          var audio = new Audio('./sounnnd.mp3');
+          var audio = new Audio('./Musik/sounnnd.mp3');
 
           overlay.addEventListener('click', function () {
               audio.loop = true;
